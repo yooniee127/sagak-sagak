@@ -1,0 +1,31 @@
+.auth_root{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.auth_form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: #E8ECF8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+}
+.auth_form_header{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    height: 40px;
+}
+.auth_form_body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100% - 40px);
+}

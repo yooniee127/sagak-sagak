@@ -1,10 +1,12 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import AuthContainer from 'routes/auth/AuthContainer'
 
 function App() {
   return (
-    <div className="App">
-      <span>hi</span>
-    </div>
+    <Routes>
+      <Route path='/' element={<AuthContainer />}/>
+    </Routes>
   );
 }
 
